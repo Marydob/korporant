@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>КОРПОРАНТ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,200;14..32,300;14..32,400;14..32,500;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <img src="img/logo1.png" alt="КОРПОРАНТ">
+    </div>
+    <div class="nav-links">
+      <a href="#audience">для кого</a>
+      <a href="#how">как это работает</a>
+      <a href="#reviews">отзывы</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#audience">для кого</a>
+    <a href="#how">как это работает</a>
+    <a href="#reviews">отзывы</a>
+    <a href="#faq">FAQ</a>
+  </div>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-left">
+        <h1>
+          <span class="orange">ЛИСТАЙТЕ</span> КАРТОЧКИ<br>
+          ОЦЕНИВАЙТЕ <span class="orange">ПРОФИЛИ</span><br>
+          ДЕЛАЙТЕ ВЫБОР
+        </h1>
+        <p class="hero-sub">
+          взаимный интерес <span class="orange">—</span> общий чат<br>
+          остальное <span class="orange">—</span> ваша история
+        </p>
+        <div class="hero-btns">
+          <button class="btn-orange">я ищу работу →</button>
+          <button class="btn-white">найти сотрудника →</button>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="img/chelik.png" alt="chlik">
+      </div>
+    </div>
+  </section>
+
+  <section id="audience">
+    <h2 class="title">НАША АУДИТОРИЯ</h2>
+    <div class="two-cards">
+      <div class="card">
+        <img src="img/spec.png" alt="Специалист" class="card-icon">
+        <h3>ДЛЯ <span class="orange">СПЕЦИАЛИСТОВ</span></h3>
+        <p>Не тратьте время на пустые собеседования.<br><br>Получайте предложения от компаний, которые ищут именно вас.</p>
+      </div>
+      <div class="card">
+        <img src="img/rab.png" alt="Работодатель" class="card-icon">
+        <h3>ДЛЯ <span class="orange">РАБОТОДАТЕЛЕЙ</span></h3>
+        <p>Листайте карточки специалистов. Оценивайте опыт, навыки.<br><br>Найдите человека, который разделяет ваш подход и&nbsp;готов расти вместе с&nbsp;вами.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2 class="title">ОТ КАРТОЧКИ ДО КОНТРАКТА</h2>
+    <div class="three-steps">
+      <div>
+        <div class="big-num">01</div>
+        <div class="step-title">создай профиль</div>
+        <div class="line"></div>
+        <p class="step-text">Расскажите о себе или компании: опыт, навыки, задачи, условия.</p>
+      </div>
+      <div>
+        <div class="big-num">02</div>
+        <div class="step-title">найди подходящих</div>
+        <div class="line"></div>
+        <p class="step-text">Смотрите кандидатов или вакансии. Листайте, оценивайте, добавляйте в избранное.</p>
+      </div>
+      <div>
+        <div class="big-num">03</div>
+        <div class="step-title">начни общение</div>
+        <div class="line"></div>
+        <p class="step-text">Взаимный интерес открывает диалог. Дальше вы обсуждаете детали, принимаете решение.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2 class="title">ЧТО ГОВОРЯТ ПОЛЬЗОВАТЕЛИ</h2>
+    <div class="reviews-box">
+      <div class="reviews-track" id="reviewsTrack">
+        <div class="review">
+          <p class="review-text">«Мы искали главного инженера проекта. Нашли человека, который в итоге вывел проект из затяжного этапа. Рекомендую коллегам.»</p>
+          <div class="review-author">
+            <img src="img/elena.jpeg" alt="Елена" class="review-img">
+            <div>
+              <div class="review-name orange">Елена</div>
+              <div class="review-role">HRD, «Строительная группа №1»</div>
+            </div>
+          </div>
+        </div>
+        <div class="review">
+          <p class="review-text">«Зарегистрировался, заполнил профиль. Через два дня пришло уведомление: взаимный интерес с компанией из финтеха. Ещё через неделю подписал оффер.»</p>
+          <div class="review-author">
+            <img src="img/1promo.jpg" alt="Михаил" class="review-img">
+            <div>
+              <div class="review-name orange">Михаил</div>
+              <div class="review-role">Senior Product Manager</div>
+            </div>
+          </div>
+        </div>
+        <div class="review">
+          <p class="review-text">«Обычно поиск фронтенд-лида занимал 2–3 недели. Здесь мы сами листали карточки, отбирали подходящих. Очень удобно.»</p>
+          <div class="review-author">
+            <img src="img/2promo.jpeg" alt="Алексей" class="review-img">
+            <div>
+              <div class="review-name orange">Алексей</div>
+              <div class="review-role">CEO, IT-компания</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <button id="prevBtn">←</button>
+        <button id="nextBtn">→</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="professions">
+    <h2 class="title">ВСЕ ПРОФЕССИИ ЗДЕСЬ</h2>
+    <div class="tags-row">
+      <div class="tags-line" id="line1"></div>
+    </div>
+    <div class="tags-row">
+      <div class="tags-line" id="line2"></div>
+    </div>
+    <div class="tags-row">
+      <div class="tags-line" id="line3"></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2 class="title">FAQ</h2>
+    <details class="faq-item">
+      <summary>Это бесплатно? <span>+</span></summary>
+      <p>Да, базовое использование платформы абсолютно бесплатно. Доступны все основные функции для поиска работы и сотрудников.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Как происходит отбор кандидатов? <span>+</span></summary>
+      <p>Вы просматриваете карточки кандидатов, ставите "Интересно" или "Не интересно". При взаимном интересе открывается чат для общения.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Увидят ли мои контакты те, кому я не поставил «Интересно»? <span>+</span></summary>
+      <p>Нет, ваши контакты видны только тем, с кем совпал взаимный интерес. Ваша приватность защищена.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Что делать, если я передумал или ошибся? <span>+</span></summary>
+      <p>Вы можете изменить свой выбор в любой момент. Просто вернитесь к карточке и обновите свой отклик.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Можно ли разместить несколько вакансий? <span>+</span></summary>
+      <p>Да, для работодателей доступно размещение неограниченного количества вакансий и проектов на платформе.</p>
+    </details>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <img src="img/logo.png" alt="КОРПОРАНТ" class="footer-logo">
+      <div class="footer-nav">
+        <a href="#audience">для кого</a>
+        <a href="#how">как это работает</a>
+        <a href="#reviews">отзывы</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div>
+        <div class="socials">
+          <div class="soc">VK</div>
+          <div class="soc">OK</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 КОРПОРАНТ. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+      <div>
+        <a href="#">политика</a>
+        <a href="#">условия</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="style/code.js"></script>
+</body>
+</html>
