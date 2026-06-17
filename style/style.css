@@ -206,7 +206,7 @@
       }
       .hero-right img {
         max-height: 30vh;
-        max-width: 130px;
+        max-width: 100px;
       }
       .hero-btns {
         flex-direction: row;
@@ -232,8 +232,8 @@
         margin-bottom: 12px;
       }
       .hero-right img {
-        max-height: 25vh;
-        max-width: 110px;
+        max-height: 15vh;
+        max-width: 80px;
       }
     }
 
